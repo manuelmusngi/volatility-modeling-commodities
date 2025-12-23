@@ -1,31 +1,7 @@
 #### Volatility Modeling for Commodities and Equity Indices
-This project implements and extends the volatility modeling framework presented in “Volatility Modelling in Crude Oil and Natural Gas Prices” by Saltık et al. (2016). It translates the paper’s empirical methodology into a modular, reproducible computational application designed to model and forecast volatility in key energy commodities and equity index markets using advanced GARCH-family models.
+This project is a production‑grade implementation of advanced volatility models inspired by Saltık, Değirmen, and Ural (2016). It operationalizes the paper’s empirical framework into a modular Python application for forecasting, evaluating, and comparing conditional volatility across energy commodities and equity indices.
 
-The application focuses on capturing the nonlinear dynamics, volatility clustering, asymmetry, and long-memory behavior commonly observed in financial return series. It applies these models to markets such as WTI crude oil, Henry Hub natural gas, and the S&P 500 Index, enabling both cross-asset comparison and practical risk analysis.
-
-#### Core Functionality
-📈 Conditional Volatility Forecasting
-The system generates rolling, out-of-sample volatility forecasts using GARCH-family models such as EGARCH and FIGARCH. These models are specifically chosen for their ability to capture asymmetric responses to shocks and persistent volatility dynamics that standard GARCH models may fail to represent.
-
-📊 Model Performance Evaluation
-Forecast accuracy is evaluated using Mean Squared Error (MSE) and Mean Absolute Error (MAE), consistent with the loss-function-based assessment framework employed in the original research. This allows objective comparison of model performance across different assets and time periods.
-
-🔍 Cross-Asset Volatility Comparison
-By applying identical model specifications to both energy commodities and an equity index, the project facilitates comparative analysis of volatility structures, persistence, and sensitivity to market shocks—mirroring the multi-market perspective of the source paper.
-
-🛡️ Risk Management and Hedging Applications
-Forecasted conditional volatilities can be used to derive optimal hedge ratios, supporting informed decision-making for traders, portfolio managers, policymakers, and risk analysts. This reflects the paper’s emphasis on minimizing loss and managing risk in volatile energy markets.
-
-#### Models Implemented
-The following models are included based on their empirical relevance and practical applicability in volatility forecasting and hedging:
-
-GARCH — Baseline symmetric volatility model
-
-EGARCH — Exponential GARCH capturing asymmetric and leverage effects
-
-FIGARCH — Fractionally integrated GARCH modeling long-memory volatility
-
-These models are particularly useful for developing risk-minimizing hedge strategies in both commodity and equity markets.
+The system focuses on nonlinear dynamics, volatility clustering, asymmetry, and long‑memory effects—features that dominate real‑world financial return series but are often underrepresented in baseline models. Applications include risk forecasting, hedge ratio construction, and cross‑asset volatility analysis for markets such as WTI crude oil, Henry Hub natural gas, and the S&P 500 Index.
 
 #### Project architecture
 
