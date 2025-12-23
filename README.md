@@ -1,32 +1,9 @@
-#### Volatility-Modeling-Commodities-and-Index
+#### Volatility Modeling for Commodities and Equity Indices
+This project implements and extends the volatility modeling framework presented in “Volatility Modelling in Crude Oil and Natural Gas Prices” by Saltık et al. (2016). It translates the paper’s empirical methodology into a modular, reproducible computational application designed to model and forecast volatility in key energy commodities and equity index markets using advanced GARCH-family models.
 
-This project is about the study of the volatility models used in a research paper that aimed to model and forecast the volatility of key energy and equity index markets using advanced GARCH-family models. Leveraging the research paper’s methodology, this development implements a suite of volatility models including EGARCH, FIGARCH, and others to capture the dynamic and nonlinear behavior of financial returns in markets like crude oil (WTI), natural gas (Henry Hub), and the S&P 500 Index. 
+The application focuses on capturing the nonlinear dynamics, volatility clustering, asymmetry, and long-memory behavior commonly observed in financial return series. It applies these models to markets such as WTI crude oil, Henry Hub natural gas, and the S&P 500 Index, enabling both cross-asset comparison and practical risk analysis.
 
-The core functionality includes:
 
-- Forecasting conditional volatility:\
-  Utilizing models such as EGARCH and FIGARCH, the functionality provides rolling out-of-sample forecasts of volatility, adapting to market shifts and clustering effects that standard models may overlook. 
-
-- Evaluating model performance:\
-  The forecasting models are quantitatively assessed using Mean Squared Error (MSE) and Mean Absolute Error (MAE), in line with the paper’s methodology for determining the most accurate model under various market conditions. 
-
-- Comparing behavior across asset classes:\
-  By running the same GARCH variants on different markets (energy commodities and equity index), this enables comparative analysis of volatility structures and sensitivities across asset classes, reflecting the paper’s multi-market approach. 
-
-- Supporting hedging and risk management:\
-  Forecasted volatilities can be used to derive optimal hedge ratios, assisting traders, policymakers, and risk managers in making informed decisions—mirroring the practical insights provided in the original study. 
-
-In essence, this translates the empirical modeling approach of the original research into a computational tool that allows users to explore, visualize, and evaluate volatility patterns in major financial markets using GARCH-family models. By combining robust econometric modeling with real-time financial data, it supports both academic exploration and real-world financial decision-making.
-
-#### Models applied
-
-For practical implications, I have selected the following models, since investors and fund managers can use EGARCH or FIGARCH models to develop risk-minimizing hedge strategies in the energy markets or index.
- 
-- GARCH (baseline)
-
-- EGARCH (exponential, asymmetric)
-
-- FIGARCH (fractionally integrated)
 
 #### Project architecture
 
