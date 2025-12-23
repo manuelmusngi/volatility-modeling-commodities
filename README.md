@@ -16,6 +16,17 @@ By applying identical model specifications to both energy commodities and an equ
 🛡️ Risk Management and Hedging Applications
 Forecasted conditional volatilities can be used to derive optimal hedge ratios, supporting informed decision-making for traders, portfolio managers, policymakers, and risk analysts. This reflects the paper’s emphasis on minimizing loss and managing risk in volatile energy markets.
 
+#### Models Implemented
+The following models are included based on their empirical relevance and practical applicability in volatility forecasting and hedging:
+
+GARCH — Baseline symmetric volatility model
+
+EGARCH — Exponential GARCH capturing asymmetric and leverage effects
+
+FIGARCH — Fractionally integrated GARCH modeling long-memory volatility
+
+These models are particularly useful for developing risk-minimizing hedge strategies in both commodity and equity markets.
+
 #### Project architecture
 
 volatility_model_app/\
