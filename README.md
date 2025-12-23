@@ -16,6 +16,242 @@ Applies identical model specifications across commodities and equities, enabling
 🛡️ Risk Management & Hedging Applications
 Forecasted conditional variances can be used to derive optimal hedge ratios, supporting practical decision‑making for traders, portfolio managers, and risk analysts.
 
+Methodology: Mapping Code to Econometric Models
+This section explicitly links each code module to the mathematical formulations presented in the paper.
+
+1. Return Process
+All assets are modeled as log‑returns:
+
+𝑟
+𝑡
+=
+𝜇
++
+𝜀
+𝑡
+,
+𝜀
+𝑡
+=
+𝜎
+𝑡
+𝑧
+𝑡
+,
+𝑧
+𝑡
+∼
+𝐷
+(
+0
+,
+1
+)
+Code mapping
+
+data/loader.py
+
+Loads price data and computes log‑returns.
+
+config/settings.py
+
+Defines distributional assumptions (GED, Student‑t).
+
+2. GARCH(1,1) — Baseline Model
+𝜎
+𝑡
+2
+=
+𝜔
++
+𝛼
+𝜀
+𝑡
+−
+1
+2
++
+𝛽
+𝜎
+𝑡
+−
+1
+2
+Code mapping
+
+models/model_factory.py
+
+Instantiates baseline GARCH specifications.
+
+models/forecasting.py
+
+Fits model and generates conditional variance forecasts.
+
+3. EGARCH(1,1) — Asymmetric Volatility
+ln
+⁡
+(
+𝜎
+𝑡
+2
+)
+=
+𝜔
++
+𝛼
+∣
+𝜀
+𝑡
+−
+1
+𝜎
+𝑡
+−
+1
+∣
++
+𝛾
+𝜀
+𝑡
+−
+1
+𝜎
+𝑡
+−
+1
++
+𝛽
+ln
+⁡
+(
+𝜎
+𝑡
+−
+1
+2
+)
+Captures leverage effects and avoids non‑negativity constraints on variance.
+
+Code mapping
+
+models/model_factory.py
+
+EGARCH specification with asymmetric term.
+
+models/forecasting.py
+
+Rolling estimation and volatility forecasting.
+
+4. FIGARCH(1,d,1) — Long‑Memory Volatility
+𝜎
+𝑡
+2
+=
+𝜔
++
+[
+1
+−
+𝛽
+(
+𝐿
+)
+]
+−
+1
+[
+1
+−
+(
+1
+−
+𝛼
+(
+𝐿
+)
+)
+(
+1
+−
+𝐿
+)
+𝑑
+]
+𝜀
+𝑡
+2
+Models fractional integration 
+0
+<
+𝑑
+<
+1
+, allowing shocks to decay hyperbolically.
+
+Code mapping
+
+models/model_factory.py
+
+FIGARCH parameterization and constraints.
+
+models/forecasting.py
+
+Long‑memory volatility estimation.
+
+5. Forecast Evaluation — Loss Functions
+Mean Squared Error
+
+MSE
+=
+1
+𝑇
+∑
+𝑡
+=
+1
+𝑇
+(
+𝜎
+𝑡
+2
+−
+𝜎
+^
+𝑡
+2
+)
+2
+Mean Absolute Error
+
+MAE
+=
+1
+𝑇
+∑
+𝑡
+=
+1
+𝑇
+∣
+𝜎
+𝑡
+2
+−
+𝜎
+^
+𝑡
+2
+∣
+Code mapping
+
+evaluation/metrics.py
+
+Implements MSE and MAE.
+
+reports/results.csv
+
+Stores comparative model performance.
+
 #### Project architecture
 
 volatility_model_app/\
