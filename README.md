@@ -25,8 +25,8 @@ This section explicitly links each code module to the mathematical formulations 
 
      Code mapping
 
-          - data/loader.py
-               - Loads price data and computes log‑returns.
+          -data/loader.py
+               -Loads price data and computes log‑returns.
 
           - config/settings.py
                - Defines distributional assumptions (GED, Student‑t).
