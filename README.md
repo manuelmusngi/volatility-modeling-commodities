@@ -71,6 +71,12 @@ Models fractional integration 0 < 𝑑 < 1, allowing shocks to decay hyperbolica
 
 - models/forecasting.py
      - Long‑memory volatility estimation.
+ 
+#### 5. Forecast Evaluation — Loss Functions
+
+Mean Squared Error
+
+MSE = 1/𝑇 ∑𝑡 = 1 𝑇(𝜎2𝑡−𝜎^2𝑡)^2
   
 
 <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5a0783d5-17b6-467c-9a30-a0c620773cac" /> Project Architecture
