@@ -84,10 +84,10 @@ Models fractional integration 0 < 𝑑 < 1, allowing shocks to decay hyperbolica
 #### Code mapping
 
 - evaluation/metrics.py
-          - Implements MSE and MAE.
+  - Implements MSE and MAE.
 
 - reports/results.csv
-          - Stores comparative model performance.
+  - Stores comparative model performance.
 
 <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5a0783d5-17b6-467c-9a30-a0c620773cac" /> Project Architecture
 
