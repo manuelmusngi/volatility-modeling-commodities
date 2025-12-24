@@ -56,6 +56,22 @@ This section explicitly links each code module to the mathematical formulations 
 
 - models/forecasting.py
   - Rolling estimation and volatility forecasting.
+ 
+
+#### 4. FIGARCH(1,d,1) — Long‑Memory Volatility
+
+                         𝜎2𝑡 = 𝜔 + [1 − 𝛽(𝐿)] − 1[1−(1−𝛼(𝐿))(1−𝐿)𝑑]𝜀2𝑡
+
+Models fractional integration 0 < 𝑑 < 1, allowing shocks to decay hyperbolically.
+
+#### Code mapping
+
+- models/model_factory.py
+     - FIGARCH parameterization and constraints.
+
+- models/forecasting.py
+     - Long‑memory volatility estimation.
+  
 
 <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5a0783d5-17b6-467c-9a30-a0c620773cac" /> Project Architecture
 
