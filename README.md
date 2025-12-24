@@ -44,6 +44,20 @@ This section explicitly links each code module to the mathematical formulations 
 - models/forecasting.py
   - Fits model and generates conditional variance forecasts.
 
+-3. EGARCH(1,1) — Asymmetric Volatility
+
+                         ln(𝜎2𝑡) = 𝜔 + 𝛼|𝜀𝑡 − 1/𝜎𝑡 - 1| + (𝛾) 𝜀𝑡 − 1/𝜎𝑡 − 1 + 𝛽ln(𝜎2𝑡 − 1)
+                         
+Captures leverage effects and avoids non‑negativity constraints on variance.
+
+#### Code mapping
+
+- models/model_factory.py
+  - EGARCH specification with asymmetric term.
+
+- models/forecasting.py
+ - Rolling estimation and volatility forecasting.
+
 <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5a0783d5-17b6-467c-9a30-a0c620773cac" /> Project Architecture
 
 volatility_model_app/\
