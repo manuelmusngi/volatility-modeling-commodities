@@ -44,7 +44,7 @@ This section explicitly links each code module to the mathematical formulations 
 - models/forecasting.py
   - Fits model and generates conditional variance forecasts.
 
--3. EGARCH(1,1) — Asymmetric Volatility
+3. EGARCH(1,1) — Asymmetric Volatility
 
                          ln(𝜎2𝑡) = 𝜔 + 𝛼|𝜀𝑡 − 1/𝜎𝑡 - 1| + (𝛾) 𝜀𝑡 − 1/𝜎𝑡 − 1 + 𝛽ln(𝜎2𝑡 − 1)
                          
