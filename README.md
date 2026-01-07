@@ -98,7 +98,7 @@ Models fractional integration 0 < 𝑑 < 1, allowing shocks to decay hyperbolica
 
 These models were selected based on their empirical superiority in energy markets and their relevance for risk‑minimizing hedge strategies, as demonstrated in the reference study.
 
-<img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5a0783d5-17b6-467c-9a30-a0c620773cac" /> Project Architecture
+#### Project Architecture
 
 volatility_model_app/\
 │
