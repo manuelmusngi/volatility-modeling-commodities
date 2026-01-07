@@ -1,5 +1,5 @@
-#### Volatility Modeling for Commodities
-This project is a production‑grade implementation of advanced volatility models inspired by Saltık, Değirmen, and Ural (2016). It implements the paper’s empirical framework into a modular application for forecasting, evaluating, and comparing conditional volatility across energy commodities and equity indices.
+#### Volatility Modeling for Energy Commodities
+This project is a production‑grade implementation of advanced volatility models inspired by Saltık, Değirmen, and Ural (2016). It implements the paper’s empirical framework into a modular application for forecasting, evaluating, and comparing conditional volatility across energy commodities.
 
 The system focuses on nonlinear dynamics, volatility clustering, asymmetry, and long‑memory effects—features that dominate real‑world financial return series but are often underrepresented in baseline models. Applications include risk forecasting, hedge ratio construction, and cross‑asset volatility analysis for markets such as WTI crude oil and Henry Hub natural gas.
 
@@ -14,7 +14,7 @@ Forecast accuracy is evaluated using Mean Squared Error (MSE) and Mean Absolute 
 
 🔍 Cross‑Asset Volatility Structure Analysis
 
-Applies identical model specifications across commodities and equities, enabling direct comparison of volatility persistence, asymmetry, and memory across asset classes.
+Applies identical model specifications across energy commodities, enabling direct comparison of volatility persistence, asymmetry, and memory across asset classes.
 
 🛡️ Risk Management & Hedging Applications
 
