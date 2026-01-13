@@ -88,7 +88,7 @@ The modular design allows researchers to plug in new models, factors, or dataset
 
 ├── src/\
 │   └── ngvol/\
-│           ├── __init__.py\
+│       ├── __init__.py\
 │       │
 │       ├── config.py\
 │       │   # YAML-driven experiment configuration\
