@@ -97,7 +97,7 @@ ng_vol_garch/\
 │   └── [config_example.yaml](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/experiments/config_example.yaml)\
 ├── src/\
 │   └── ngvol/\
-│       ├── __init__.py\
+│       ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/__init__.py)\
 │       ├── config.py\
 │       ├── utils/\
 │       │   ├── logging_utils.py\
