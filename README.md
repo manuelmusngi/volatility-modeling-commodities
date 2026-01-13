@@ -85,6 +85,49 @@ Machine‑learning benchmarks provide robustness checks and highlight when nonli
 6. A unified research framework accelerates experimentation.
 The modular design allows researchers to plug in new models, factors, or datasets without rewriting the pipeline.
 
+#### Reference Research Papers
+
+📊 Core GARCH‑Family Foundations in Natural Gas
+🔹 Long‑Memory & Fractional Volatility
+Baillie, Bollerslev & Mikkelsen (1996) – Fractionally Integrated GARCH  
+Introduces FIGARCH, foundational for persistent volatility in energy markets.
+
+Elder & Serletis (2008) – Long memory in energy futures volatility  
+Empirical evidence of fractional integration in natural gas futures volatility.
+
+⚖️ Asymmetry, Power Effects & Heavy Tails
+🔹 APARCH / FIAPARCH‑Relevant
+Ding, Granger & Engle (1993) – A long memory property of stock market returns  
+Establishes power‑transformed volatility dynamics underlying APARCH.
+
+Conrad, Karanasos & Zeng (2011) – Multivariate FIAPARCH models  
+Extends FIAPARCH to capture asymmetric long‑memory volatility spillovers.
+
+🌦️ Macro‑Driven & MIDAS Extensions (Highly Relevant)
+🔹 Weather, Climate, and Macro Factors
+Liang et al. (2022) – Natural gas volatility prediction with extreme weather  
+GARCH‑MIDAS‑ES model incorporating weather extremes improves NG volatility forecasts.
+
+Guo et al. (2023) – Climate risks and natural gas futures volatility  
+GARCH‑MIDAS with climate policy uncertainty and disaster frequency.
+
+Sources: 
+
+🔄 Regime Switching & Structural Breaks
+🔹 MS‑GARCH / HMM‑GARCH
+Arouri, Lahiani & Nguyen (2012) – Regime‑switching volatility in energy prices  
+Shows distinct volatility regimes in natural gas and oil markets.
+
+Kang, Kang & Yoon (2009) – Structural breaks and volatility forecasting  
+Demonstrates regime‑aware GARCH superiority for energy commodities.
+
+🧠 Hybrid & Comparative Modeling
+🔹 GARCH vs ML (Benchmarking)
+Chung (2024) – GARCH vs Machine Learning for energy volatility  
+Natural gas volatility shows weaker spillovers but strong persistence; hybrid models recommended.
+
+
+
 
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).  
