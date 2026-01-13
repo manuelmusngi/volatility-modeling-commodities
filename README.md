@@ -86,38 +86,62 @@ The modular design allows researchers to plug in new models, factors, or dataset
 
 #### Project Architecture
 
-ng_vol_garch/\
-├── [pyproject.toml](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/pyproject.toml)\            
-├── [README.md](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/README.md)\
-├── data/\
-│   ├── ng_prices.csv        # natural gas prices / returns\
-│   ├── weather_factors.csv  # weather / climate / macro for MIDAS\
-│   └── policy_factors.csv   # climate policy risk etc.\
-├── experiments/\
-│   └── [config_example.yaml](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/experiments/config_example.yaml)\
 ├── src/\
 │   └── ngvol/\
-│       ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/__init__.py)\
+│       ├── __init__.py\
+│       │
 │       ├── config.py\
-│       ├── utils/\
-│       │   ├── logging_utils.py\
-│       │   └── evaluation.py\
-│       ├── data/\
-│       │   ├── __init__.py\
-│       │   ├── loader.py\
-│       │   └── features_midas.py\
-│       ├── models/\
-│       │   ├── __init__.py\
-│       │   ├── base.py\
-│       │   ├── figarch.py\
-│       │   ├── fiaparch.py\
-│       │   ├── garch_midas.py\
-│       │   ├── ms_garch.py\
-│       │   └── ml_benchmark.py\
-│       └── train/\
-│           ├── __init__.py\
-│           └── pipeline.py\
-└── main.py
+│       │   # YAML-driven experiment configuration\
+│       │
+│       ├── data/
+│       │   ├── __init__.py
+│       │   ├── loader.py
+│       │   ├── features_midas.py
+│       │   └── validation.py
+│       │   # Data ingestion, merging, MIDAS feature engineering, validation
+│       │
+│       ├── models/
+│       │   ├── __init__.py
+│       │   ├── base.py
+│       │   ├── figarch.py
+│       │   ├── fiaparch.py
+│       │   ├── garch_midas.py
+│       │   ├── ms_garch.py
+│       │   └── ml_benchmark.py
+│       │   # FIGARCH, FIAPARCH, APARCH, GARCH-MIDAS, MS-GARCH, ML baselines
+│       │
+│       ├── train/
+│       │   ├── __init__.py
+│       │   └── pipeline.py
+│       │   # End-to-end training, rolling forecasts, evaluation
+│       │
+│       └── utils/
+│           ├── __init__.py
+│           ├── logging_utils.py
+│           └── evaluation.py
+│           # Logging, metrics, shared utilities
+│
+├── data/
+│   ├── ng_prices.csv
+│   ├── weather_factors.csv
+│   └── policy_factors.csv
+│   # Raw datasets for prices, weather/climate, policy uncertainty
+│
+├── experiments/
+│   └── config_example.yaml
+│   # Experiment configuration files
+│
+├── scripts/
+│   └── download_data.py
+│   # Public data download helpers
+│
+├── main.py
+│   # Entry point for running full experiments
+│
+├── README.md
+├── pyproject.toml
+└── requirements.txt
+
 
 
 
