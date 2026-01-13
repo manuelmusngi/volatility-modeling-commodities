@@ -93,54 +93,54 @@ The modular design allows researchers to plug in new models, factors, or dataset
 │       ├── config.py\
 │       │   # YAML-driven experiment configuration\
 │       │
-│       ├── data/
-│       │   ├── __init__.py
-│       │   ├── loader.py
-│       │   ├── features_midas.py
-│       │   └── validation.py
-│       │   # Data ingestion, merging, MIDAS feature engineering, validation
+│       ├── data/\
+│       │   ├── __init__.py\
+│       │   ├── loader.py\
+│       │   ├── features_midas.py\
+│       │   └── validation.py\
+│       │   # Data ingestion, merging, MIDAS feature engineering, validation\
 │       │
-│       ├── models/
-│       │   ├── __init__.py
-│       │   ├── base.py
-│       │   ├── figarch.py
-│       │   ├── fiaparch.py
-│       │   ├── garch_midas.py
-│       │   ├── ms_garch.py
-│       │   └── ml_benchmark.py
-│       │   # FIGARCH, FIAPARCH, APARCH, GARCH-MIDAS, MS-GARCH, ML baselines
+│       ├── models/\
+│       │   ├── __init__.py\
+│       │   ├── base.py\
+│       │   ├── figarch.py\
+│       │   ├── fiaparch.py\
+│       │   ├── garch_midas.py\
+│       │   ├── ms_garch.py\
+│       │   └── ml_benchmark.py\
+│       │   # FIGARCH, FIAPARCH, APARCH, GARCH-MIDAS, MS-GARCH, ML baselines\
 │       │
-│       ├── train/
-│       │   ├── __init__.py
-│       │   └── pipeline.py
-│       │   # End-to-end training, rolling forecasts, evaluation
+│       ├── train/\
+│       │   ├── __init__.py\
+│       │   └── pipeline.py\
+│       │   # End-to-end training, rolling forecasts, evaluation\
 │       │
-│       └── utils/
-│           ├── __init__.py
-│           ├── logging_utils.py
-│           └── evaluation.py
-│           # Logging, metrics, shared utilities
+│       └── utils/\
+│           ├── __init__.py\
+│           ├── logging_utils.py\
+│           └── evaluation.py\
+│           # Logging, metrics, shared utilities\
 │
-├── data/
-│   ├── ng_prices.csv
-│   ├── weather_factors.csv
-│   └── policy_factors.csv
-│   # Raw datasets for prices, weather/climate, policy uncertainty
+├── data/\
+│   ├── ng_prices.csv\
+│   ├── weather_factors.csv\
+│   └── policy_factors.csv\
+│   # Raw datasets for prices, weather/climate, policy uncertainty\
 │
-├── experiments/
-│   └── config_example.yaml
-│   # Experiment configuration files
+├── experiments/\
+│   └── config_example.yaml\
+│   # Experiment configuration files\
 │
-├── scripts/
-│   └── download_data.py
-│   # Public data download helpers
+├── scripts/\
+│   └── download_data.py\
+│   # Public data download helpers\
 │
-├── main.py
-│   # Entry point for running full experiments
+├── main.py\
+│   # Entry point for running full experiments\
 │
-├── README.md
-├── pyproject.toml
-└── requirements.txt
+├── README.md\
+├── pyproject.toml\
+└── requirements.txt\
 
 
 
