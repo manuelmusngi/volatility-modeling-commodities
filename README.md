@@ -7,7 +7,6 @@
 </p>
 
 
-
 📘 Project Summary
 
 Natural Gas Volatility Modeling with GARCH‑Family, Long‑Memory, MIDAS, and Regime‑Switching Frameworks
@@ -87,37 +86,37 @@ The modular design allows researchers to plug in new models, factors, or dataset
 
 #### Project Architecture
 
-ng_vol_garch/
-├── pyproject.toml           # or setup.cfg / requirements.txt
-├── README.md
-├── data/
-│   ├── ng_prices.csv        # natural gas prices / returns
-│   ├── weather_factors.csv  # weather / climate / macro for MIDAS
-│   └── policy_factors.csv   # climate policy risk etc.
-├── experiments/
-│   └── config_example.yaml
-├── src/
-│   └── ngvol/
-│       ├── __init__.py
-│       ├── config.py
-│       ├── utils/
-│       │   ├── logging_utils.py
-│       │   └── evaluation.py
-│       ├── data/
-│       │   ├── __init__.py
-│       │   ├── loader.py
-│       │   └── features_midas.py
-│       ├── models/
-│       │   ├── __init__.py
-│       │   ├── base.py
-│       │   ├── figarch.py
-│       │   ├── fiaparch.py
-│       │   ├── garch_midas.py
-│       │   ├── ms_garch.py
-│       │   └── ml_benchmark.py
-│       └── train/
-│           ├── __init__.py
-│           └── pipeline.py
+ng_vol_garch/\
+├── pyproject.toml           # or setup.cfg / requirements.txt\
+├── README.md\
+├── data/\
+│   ├── ng_prices.csv        # natural gas prices / returns\
+│   ├── weather_factors.csv  # weather / climate / macro for MIDAS\
+│   └── policy_factors.csv   # climate policy risk etc.\
+├── experiments/\
+│   └── config_example.yaml\
+├── src/\
+│   └── ngvol/\
+│       ├── __init__.py\
+│       ├── config.py\
+│       ├── utils/\
+│       │   ├── logging_utils.py\
+│       │   └── evaluation.py\
+│       ├── data/\
+│       │   ├── __init__.py\
+│       │   ├── loader.py\
+│       │   └── features_midas.py\
+│       ├── models/\
+│       │   ├── __init__.py\
+│       │   ├── base.py\
+│       │   ├── figarch.py\
+│       │   ├── fiaparch.py\
+│       │   ├── garch_midas.py\
+│       │   ├── ms_garch.py\
+│       │   └── ml_benchmark.py\
+│       └── train/\
+│           ├── __init__.py\
+│           └── pipeline.py\
 └── main.py
 
 
