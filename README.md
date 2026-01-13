@@ -87,14 +87,14 @@ The modular design allows researchers to plug in new models, factors, or dataset
 #### Project Architecture
 
 ng_vol_garch/\
-├── pyproject.toml           # or setup.cfg / requirements.txt\
-├── README.md\
+├── [pyproject.toml](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/pyproject.toml)\            
+├── [README.md](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/README.md)\
 ├── data/\
 │   ├── ng_prices.csv        # natural gas prices / returns\
 │   ├── weather_factors.csv  # weather / climate / macro for MIDAS\
 │   └── policy_factors.csv   # climate policy risk etc.\
 ├── experiments/\
-│   └── config_example.yaml\
+│   └── [config_example.yaml](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/experiments/config_example.yaml)\
 ├── src/\
 │   └── ngvol/\
 │       ├── __init__.py\
