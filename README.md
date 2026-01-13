@@ -55,5 +55,25 @@ Rolling forecasts, variance prediction, and evaluation metrics (RMSE, MAE).
 
 Visualization of realized vs forecasted variance.
 
+🎯 Key Takeaways
+
+1. Natural gas volatility exhibits strong long‑memory behavior.
+FIGARCH and FIAPARCH models capture persistence far better than standard GARCH, consistent with empirical findings in energy markets.
+
+2. Asymmetry and power effects matter.
+APARCH‑style models reflect the nonlinear response of volatility to positive vs negative shocks—important for commodities with storage constraints and seasonal demand.
+
+3. Macro and weather factors significantly improve forecasts.
+GARCH‑MIDAS models show that extreme weather, climate risks, and policy uncertainty meaningfully shape long‑run volatility.
+
+4. Volatility regimes are real and economically meaningful.
+Regime‑switching models capture structural breaks, crisis periods, and shifts in market microstructure.
+
+5. ML models are competitive but not universally superior.
+Machine‑learning benchmarks provide robustness checks and highlight when nonlinear models outperform classical GARCH.
+
+6. A unified research framework accelerates experimentation.
+The modular design allows researchers to plug in new models, factors, or datasets without rewriting the pipeline.
+
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).  
