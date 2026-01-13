@@ -75,5 +75,15 @@ Machine‑learning benchmarks provide robustness checks and highlight when nonli
 6. A unified research framework accelerates experimentation.
 The modular design allows researchers to plug in new models, factors, or datasets without rewriting the pipeline.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python_3.10+-blue.svg" />
+  <img src="https://img.shields.io/badge/Models-GARCH | FIGARCH | FIAPARCH | MIDAS | MS--GARCH-green.svg" />
+  <img src="https://img.shields.io/badge/Domain-Natural_Gas_Volatility-orange.svg" />
+  <img src="https://img.shields.io/badge/Research-Backed_Models-purple.svg" />
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" />
+</p>
+
+
+
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).  
