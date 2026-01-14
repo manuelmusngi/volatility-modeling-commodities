@@ -104,7 +104,7 @@ The modular design allows researchers to plug in new models, factors, or dataset
 │       │   ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/models/__init__.py)\
 │       │   ├── [base.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/models/base.py)\
 │       │   ├── [figarch.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/models/figarch.py)\
-│       │   ├── fiaparch.py\
+│       │   ├── [fiaparch.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/models/fiaparch.py)\
 │       │   ├── garch_midas.py\
 │       │   ├── ms_garch.py\
 │       │   └── ml_benchmark.py\
