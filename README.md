@@ -88,18 +88,18 @@ The modular design allows researchers to plug in new models, factors, or dataset
 
 ├── src/\
 │   └── ngvol/\
-│       ├── __init__.py\
+│       ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/__init__.py)\
 │       │
-│       ├── config.py\
+│       ├── [config.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/config.py)\
 │       │   # YAML-driven experiment configuration\
-│       │\
+│       │
 │       ├── data/\
-│       │   ├── __init__.py\
+│       │   ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/data/__init__.py)\
 │       │   ├── loader.py\
 │       │   ├── features_midas.py\
 │       │   └── validation.py\
 │       │   # Data ingestion, merging, MIDAS feature engineering, validation\
-│       │\
+│       │
 │       ├── models/\
 │       │   ├── __init__.py\
 │       │   ├── base.py\
