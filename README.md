@@ -16,6 +16,7 @@ This project implements a complete, modular, end‑to‑end research framework f
 The codebase is structured for reproducible research, systematic experimentation, and production‑grade extensibility, making it suitable for quantitative researchers, energy analysts, and algorithmic trading teams.
 
 ⭐ Highlights
+
 📈 1. Full GARCH‑Family Implementation
 FIGARCH for long‑memory volatility (Baillie, Bollerslev & Mikkelsen, 1996).
 
