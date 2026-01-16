@@ -112,8 +112,8 @@ The modular design allows researchers to plug in new models, factors, or dataset
 │       │   # FIGARCH, FIAPARCH, APARCH, GARCH-MIDAS, MS-GARCH, ML baselines\
 │       │
 │       ├── train/\
-│       │   ├── __init__.py\
-│       │   └── pipeline.py\
+│       │   ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/train/__init__.py)\
+│       │   └── [pipeline.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/train/pipeline.py)\
 │       │   # End-to-end training, rolling forecasts, evaluation\
 │       │
 │       └── utils/\
