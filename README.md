@@ -8,41 +8,41 @@ The goal is not to crown a single “best” model, but to systematically evalua
 
 🎯 Target Market
 
--Instrument: Natural Gas Front‑Month Futures (NG1)
+- Instrument: Natural Gas Front‑Month Futures (NG1)
 
--Frequency: Daily
+- Frequency: Daily
 
--Primary Outputs:
+- Primary Outputs:
 
-   Conditional variance forecasts
+   - Conditional variance forecasts
 
-   Realized volatility proxy forecasts
+   - Realized volatility proxy forecasts
 
-   Optional VaR / ES extensions
+   - Optional VaR / ES extensions
 
 🧠 Research Motivation
 
--Natural gas volatility is uniquely sensitive to:
+- Natural gas volatility is uniquely sensitive to:
 
--Extreme weather events
+- Extreme weather events
 
--Climate‑related disasters
+- Climate‑related disasters
 
--Policy uncertainty
+- Policy uncertainty
 
--Structural breaks and regime shifts
+- Structural breaks and regime shifts
 
 This repository operationalizes insights from recent literature:
 
--Weather‑augmented GARCH‑MIDAS improves NG volatility forecasts.
+- Weather‑augmented GARCH‑MIDAS improves NG volatility forecasts.
 
--Climate disaster frequency is a robust long‑run volatility driver.
+- Climate disaster frequency is a robust long‑run volatility driver.
 
--Energy volatility exhibits regime‑dependent persistence.
+- Energy volatility exhibits regime‑dependent persistence.
 
--Machine learning models outperform out‑of‑sample, but exhibit systematic bias.
+- Machine learning models outperform out‑of‑sample, but exhibit systematic bias.
 
--Hybrid models mitigate weaknesses of both econometric and ML approaches.
+- Hybrid models mitigate weaknesses of both econometric and ML approaches.
 
 
 #### License
