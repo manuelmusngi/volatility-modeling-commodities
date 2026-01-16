@@ -117,9 +117,9 @@ The modular design allows researchers to plug in new models, factors, or dataset
 │       │   # End-to-end training, rolling forecasts, evaluation\
 │       │
 │       └── utils/\
-│           ├── __init__.py\
-│           ├── logging_utils.py\
-│           └── evaluation.py\
+│           ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/utils/__init__.py)\
+│           ├── [logging_utils.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/utils/logging_utils.py)\
+│           └── [evaluation.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/utils/evaluation.py)\
 │           # Logging, metrics, shared utilities\
 │
 ├── data/\
