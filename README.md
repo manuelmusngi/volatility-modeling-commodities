@@ -54,36 +54,40 @@ This repository operationalizes insights from recent literature:
 - GJR‑GARCH
 
 2️⃣ Macro‑Driven GARCH‑MIDAS
+
 MIDAS long‑run component driven by:
 
-Extreme weather indicators
+- Extreme weather indicators
 
-Climate policy uncertainty
+- Climate policy uncertainty
 
-Climate disaster frequency
+- Climate disaster frequency
 
-Explicit ablations to isolate predictor value
+- Explicit ablations to isolate predictor value
 
 3️⃣ Regime‑Switching Volatility
-MS‑GARCH
 
-HMM‑GARCH
+- MS‑GARCH
 
-Two‑state regimes (calm vs stress)
+- HMM‑GARCH
 
-Regime‑conditional persistence diagnostics
+- Two‑state regimes (calm vs stress)
+
+- Regime‑conditional persistence diagnostics
 
 4️⃣ Machine Learning Benchmarks
-Tree‑based models (e.g., Gradient Boosting)
 
-Lagged volatility + macro‑climate features
+- Tree‑based models (e.g., Gradient Boosting)
 
-Walk‑forward training only
+- Lagged volatility + macro‑climate features
+
+- Walk‑forward training only
 
 5️⃣ Hybrid Ensembles
-Bias‑corrected combinations of GARCH and ML
 
-Designed to balance tail sensitivity and generalization
+- Bias‑corrected combinations of GARCH and ML
+
+- Designed to balance tail sensitivity and generalization
 
 
 
