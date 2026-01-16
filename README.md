@@ -44,6 +44,48 @@ This repository operationalizes insights from recent literature:
 
 - Hybrid models mitigate weaknesses of both econometric and ML approaches.
 
+🧩 Modeling Pillars
+
+1️⃣ Econometric Baselines
+- GARCH(1,1)
+
+- EGARCH
+
+- GJR‑GARCH
+
+2️⃣ Macro‑Driven GARCH‑MIDAS
+MIDAS long‑run component driven by:
+
+Extreme weather indicators
+
+Climate policy uncertainty
+
+Climate disaster frequency
+
+Explicit ablations to isolate predictor value
+
+3️⃣ Regime‑Switching Volatility
+MS‑GARCH
+
+HMM‑GARCH
+
+Two‑state regimes (calm vs stress)
+
+Regime‑conditional persistence diagnostics
+
+4️⃣ Machine Learning Benchmarks
+Tree‑based models (e.g., Gradient Boosting)
+
+Lagged volatility + macro‑climate features
+
+Walk‑forward training only
+
+5️⃣ Hybrid Ensembles
+Bias‑corrected combinations of GARCH and ML
+
+Designed to balance tail sensitivity and generalization
+
+
 
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).  
