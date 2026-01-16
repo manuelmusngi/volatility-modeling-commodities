@@ -87,63 +87,6 @@ The modular design allows researchers to plug in new models, factors, or dataset
 
 #### Project Architecture
 
-├── src/\
-│   └── ngvol/\
-│       ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/__init__.py)\
-│       │
-│       ├── [config.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/config.py)\
-│       │   # YAML-driven experiment configuration\
-│       │
-│       ├── data/\
-│       │   ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/data/__init__.py)\
-│       │   ├── [loader.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/data/loader.py)\
-│       │   ├── [features_midas.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/data/features_midas.py)\
-│       │   └── [validation.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/data/validation.py)\
-│       │   # Data ingestion, merging, MIDAS feature engineering, validation\
-│       │
-│       ├── models/\
-│       │   ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/models/__init__.py)\
-│       │   ├── [base.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/models/base.py)\
-│       │   ├── [figarch.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/models/figarch.py)\
-│       │   ├── [fiaparch.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/models/fiaparch.py)\
-│       │   ├── [garch_midas.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/models/garch_midas.py)\
-│       │   ├── [ms_garch.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/models/ms_garch.py)]\
-│       │   └── [ml_benchmark.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/models/ml_benchmark.py)\
-│       │   # FIGARCH, FIAPARCH, APARCH, GARCH-MIDAS, MS-GARCH, ML baselines\
-│       │
-│       ├── train/\
-│       │   ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/train/__init__.py)\
-│       │   └── [pipeline.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/train/pipeline.py)\
-│       │   # End-to-end training, rolling forecasts, evaluation\
-│       │
-│       └── utils/\
-│           ├── [__init__.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/utils/__init__.py)\
-│           ├── [logging_utils.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/utils/logging_utils.py)\
-│           └── [evaluation.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/src/ngvol/utils/evaluation.py)\
-│           # Logging, metrics, shared utilities\
-│
-├── data/\
-│   ├── ng_prices.csv\
-│   ├── weather_factors.csv\
-│   └── policy_factors.csv\
-│   # Raw datasets for prices, weather/climate, policy uncertainty\
-│
-├── experiments/\
-│   └── config_example.yaml\
-│   # Experiment configuration files\
-│
-├── scripts/\
-│   └── download_data.py\
-│   # Public data download helpers\
-│
-├── main.py\
-│   # Entry point for running full experiments\
-│
-├── README.md\
-├── pyproject.toml\
-└── requirements.txt\
-
-
 
 
 #### Reference Research Papers
