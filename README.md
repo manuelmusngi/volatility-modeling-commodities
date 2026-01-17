@@ -37,30 +37,22 @@ Arouri, Lahiani & Nguyen (2012) show that natural gas and oil exhibit distinct v
 This project implements:
 
 - Hidden Markov Models (HMM)
-
 - Markov‑Switching GARCH (MS‑GARCH)
-
 - Regime‑dependent volatility forecasts
-
 - Smoothed and filtered regime probabilities
 
 2. GARCH vs Machine Learning (Hybrid Benchmarking)
 Chung (2024) demonstrates:
 
 - Natural gas volatility has strong persistence
-
 - Spillovers from other markets are weak
-
 - Hybrid models outperform standalone GARCH or ML
 
 This project integrates:
 
 - Pure econometric models
-
 - Pure ML models
-
 - Hybrid GARCH‑residual‑ML models
-
 - Comparative evaluation (MSE, MAE, QLIKE)
 
 🧩 Project Structure
