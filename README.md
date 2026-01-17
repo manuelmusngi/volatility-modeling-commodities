@@ -97,7 +97,53 @@ natural-gas-volatility/\
 │
 └── requirements.txt
 
+🚀 End‑to‑End Workflow
+1. Data Pipeline
+Download Henry Hub natural gas prices (EIA, CME, Yahoo Finance)
 
+Clean & transform into log‑returns
+
+Compute realized volatility proxies (optional)
+
+2. Model Estimation
+Fit GARCH, EGARCH, FIGARCH
+
+Fit HMM on returns or volatility proxies
+
+Fit MS‑GARCH with regime‑dependent parameters
+
+Fit ML regressors on lagged features
+
+Fit hybrid models using GARCH residuals
+
+3. Forecasting
+Rolling out‑of‑sample forecasts
+
+Regime‑conditioned volatility forecasts
+
+ML and hybrid predictions
+
+4. Evaluation
+Compare models using:
+
+MSE
+
+MAE
+
+QLIKE
+
+Diebold‑Mariano tests
+
+Rank models by performance
+
+5. Visualization
+Regime probability heatmaps
+
+Volatility forecast curves
+
+Model comparison bar charts
+
+Hybrid vs standalone performance plots
 
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).  
