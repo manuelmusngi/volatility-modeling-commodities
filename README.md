@@ -68,7 +68,7 @@ natural-gas-volatility/\
 ├── main.py\
 │
 ├── config/\
-│   ├── settings.py\              # Global configs (paths, model params, rolling windows)\
+│   ├── settings.py\              # Global configs (paths, model params, rolling windows)
 │   └── model_params.yaml        # GARCH, HMM, ML hyperparameters\
 │
 ├── data/\
