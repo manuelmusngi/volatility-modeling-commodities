@@ -18,7 +18,7 @@ Data ingestion → preprocessing → model estimation → regime detection → f
 
 The project is designed for quantitative researchers, energy analysts, energy traders, and risk managers who need a reproducible, extensible, and academically grounded volatility modeling toolkit.
 
-- 🎯 Objectives
+🎯 Objectives
 - Model natural gas volatility using GARCH, EGARCH, FIGARCH, and MS‑GARCH / HMM‑GARCH.
 
 - Benchmark econometric models against ML regressors (RF, XGBoost, LSTM optional).
@@ -29,7 +29,7 @@ The project is designed for quantitative researchers, energy analysts, energy tr
 
 - Provide a clean, modular, production‑ready architecture.
 
-- 📚 Research Foundations
+📚 Research Foundations
   
 1. Regime‑Switching Volatility (MS‑GARCH / HMM‑GARCH)
 Arouri, Lahiani & Nguyen (2012) show that natural gas and oil exhibit distinct volatility regimes, often linked to structural market events.
