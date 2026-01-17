@@ -48,7 +48,7 @@ This project integrates:
 - Hybrid GARCH‑residual‑ML models
 - Comparative evaluation (MSE, MAE, QLIKE)
 
-🧩 Project Structure
+🧩 Project Architecture
 
 natural-gas-volatility/\
 │
