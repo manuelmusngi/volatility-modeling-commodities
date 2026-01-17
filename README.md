@@ -96,7 +96,6 @@ natural-gas-volatility/\
 🚀 End‑to‑End Workflow
 1. Data Pipeline
 Download Henry Hub natural gas prices (EIA, CME, Yahoo Finance)
-
 - Clean & transform into log‑returns
 - Compute realized volatility proxies (optional)
 
