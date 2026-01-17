@@ -30,8 +30,10 @@ The project is designed for quantitative researchers, energy analysts, energy tr
 - Provide a clean, modular, production‑ready architecture.
 
 - 📚 Research Foundations
+  
 1. Regime‑Switching Volatility (MS‑GARCH / HMM‑GARCH)
 Arouri, Lahiani & Nguyen (2012) show that natural gas and oil exhibit distinct volatility regimes, often linked to structural market events.
+
 This project implements:
 
 - Hidden Markov Models (HMM)
@@ -62,6 +64,7 @@ This project integrates:
 - Comparative evaluation (MSE, MAE, QLIKE)
 
 🧩 Project Structure
+
 natural-gas-volatility/\
 │
 ├── README.md\
