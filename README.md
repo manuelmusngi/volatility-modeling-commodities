@@ -26,9 +26,7 @@ The project is designed for quantitative researchers, energy analysts, energy tr
   
 1. Regime‑Switching Volatility (MS‑GARCH / HMM‑GARCH)
 Arouri, Lahiani & Nguyen (2012) show that natural gas and oil exhibit distinct volatility regimes, often linked to structural market events.
-
 This project implements:
-
 - Hidden Markov Models (HMM)
 - Markov‑Switching GARCH (MS‑GARCH)
 - Regime‑dependent volatility forecasts
@@ -36,13 +34,11 @@ This project implements:
 
 2. GARCH vs Machine Learning (Hybrid Benchmarking)
 Chung (2024) demonstrates:
-
 - Natural gas volatility has strong persistence
 - Spillovers from other markets are weak
 - Hybrid models outperform standalone GARCH or ML
 
 This project integrates:
-
 - Pure econometric models
 - Pure ML models
 - Hybrid GARCH‑residual‑ML models
