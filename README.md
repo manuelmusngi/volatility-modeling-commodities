@@ -16,7 +16,7 @@ Combines econometric structure with ML flexibility for improved out‑of‑sampl
 - 📊 Full Pipeline  
 Data ingestion → preprocessing → model estimation → regime detection → forecasting → evaluation → reporting.
 
-The project is designed for quantitative researchers, energy analysts, and risk managers who need a reproducible, extensible, and academically grounded volatility modeling toolkit.
+The project is designed for quantitative researchers, energy analysts, energy traders, and risk managers who need a reproducible, extensible, and academically grounded volatility modeling toolkit.
 
 - 🎯 Objectives
 Model natural gas volatility using GARCH, EGARCH, FIGARCH, and MS‑GARCH / HMM‑GARCH.
