@@ -61,6 +61,55 @@ This project integrates:
 
 - Comparative evaluation (MSE, MAE, QLIKE)
 
+🧩 Project Structure
+natural-gas-volatility/\
+│
+├── README.md\
+├── main.py\
+│
+├── config/\
+│   ├── settings.py              # Global configs (paths, model params, rolling windows)\
+│   └── model_params.yaml        # GARCH, HMM, ML hyperparameters\
+│
+├── data/\
+│   ├── raw/                     # Raw Henry Hub data\
+│   ├── processed/               # Cleaned returns, volatility proxies\
+│   └── loader.py                # Data ingestion + preprocessing\
+│
+├── models/\
+│   ├── garch/
+│   │   ├── garch_models.py      # GARCH, EGARCH, FIGARCH\
+│   │   └── ms_garch.py          # MS‑GARCH implementation\
+│   │
+│   ├── hmm/\
+│   │   └── hmm_volatility.py    # HMM regime detection\
+│   │
+│   ├── ml/\
+│   │   ├── ml_models.py         # RF, XGB, LSTM (optional)\
+│   │   └── hybrid_models.py     # GARCH‑residual‑ML hybrids\
+│   │
+│   └── model_factory.py         # Unified interface for all models\
+│
+├── forecasting/\
+│   ├── rolling_forecast.py      # Rolling window forecasting engine\
+│   └── regime_forecast.py       # Regime‑aware forecasting logic\
+│
+├── evaluation/\
+│   ├── metrics.py               # MSE, MAE, QLIKE, Diebold‑Mariano tests\
+│   └── comparison.py            # Benchmarking across all models\
+│
+├── utils/\
+│   ├── logger.py                # Structured logging\
+│   ├── plotter.py               # Volatility, regimes, forecast plots\
+│   └── helpers.py               # Misc utilities\
+│
+├── reports/\
+│   ├── figures/                 # Plots (regimes, forecasts, comparisons)\
+│   └── results.csv              # Forecast error summary\
+│
+└── requirements.txt
+
+
 
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).  
