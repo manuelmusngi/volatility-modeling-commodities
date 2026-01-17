@@ -77,7 +77,7 @@ natural-gas-volatility/\
 │   └── loader.py                # Data ingestion + preprocessing\
 │
 ├── models/\
-│   ├── garch/
+│   ├── garch/\
 │   │   ├── garch_models.py      # GARCH, EGARCH, FIGARCH\
 │   │   └── ms_garch.py          # MS‑GARCH implementation\
 │   │
@@ -104,7 +104,7 @@ natural-gas-volatility/\
 │   └── helpers.py               # Misc utilities\
 │
 ├── reports/\
-│   ├── figures/                 # Plots (regimes, forecasts, comparisons)\
+│   ├── figures/\                 # Plots (regimes, forecasts, comparisons)\
 │   └── results.csv              # Forecast error summary\
 │
 └── requirements.txt
