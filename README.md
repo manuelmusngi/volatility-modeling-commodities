@@ -5,14 +5,11 @@ This project implements a research‑grade volatility modeling framework for Hen
 
 - 🔄 MS‑GARCH / HMM‑GARCH (Arouri, Lahiani & Nguyen, 2012)
 Captures regime‑switching volatility, distinguishing calm vs turbulent market states.
-
 - 🤖 Machine Learning Benchmarks (Chung, 2024)
 Compares GARCH‑family models vs ML regressors, highlighting natural gas’s
 high persistence, weak spillovers, and the value of hybrid modeling.
-
 - 🧠 Hybrid Volatility Forecasting  
 Combines econometric structure with ML flexibility for improved out‑of‑sample performance.
-
 - 📊 Full Pipeline  
 Data ingestion → preprocessing → model estimation → regime detection → forecasting → evaluation → reporting.
 
@@ -20,13 +17,9 @@ The project is designed for quantitative researchers, energy analysts, energy tr
 
 🎯 Objectives
 - Model natural gas volatility using GARCH, EGARCH, FIGARCH, and MS‑GARCH / HMM‑GARCH.
-
 - Benchmark econometric models against ML regressors (RF, XGBoost, LSTM optional).
-
 - Detect and interpret volatility regimes in natural gas markets.
-
 - Produce rolling forecasts, regime probabilities, and forecast error comparisons.
-
 - Provide a clean, modular, production‑ready architecture.
 
 📚 Research Foundations
