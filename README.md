@@ -19,47 +19,47 @@ Data ingestion → preprocessing → model estimation → regime detection → f
 The project is designed for quantitative researchers, energy analysts, energy traders, and risk managers who need a reproducible, extensible, and academically grounded volatility modeling toolkit.
 
 - 🎯 Objectives
-Model natural gas volatility using GARCH, EGARCH, FIGARCH, and MS‑GARCH / HMM‑GARCH.
+- Model natural gas volatility using GARCH, EGARCH, FIGARCH, and MS‑GARCH / HMM‑GARCH.
 
-Benchmark econometric models against ML regressors (RF, XGBoost, LSTM optional).
+- Benchmark econometric models against ML regressors (RF, XGBoost, LSTM optional).
 
-Detect and interpret volatility regimes in natural gas markets.
+- Detect and interpret volatility regimes in natural gas markets.
 
-Produce rolling forecasts, regime probabilities, and forecast error comparisons.
+- Produce rolling forecasts, regime probabilities, and forecast error comparisons.
 
-Provide a clean, modular, production‑ready architecture.
+- Provide a clean, modular, production‑ready architecture.
 
 - 📚 Research Foundations
 1. Regime‑Switching Volatility (MS‑GARCH / HMM‑GARCH)
 Arouri, Lahiani & Nguyen (2012) show that natural gas and oil exhibit distinct volatility regimes, often linked to structural market events.
 This project implements:
 
-Hidden Markov Models (HMM)
+- Hidden Markov Models (HMM)
 
-Markov‑Switching GARCH (MS‑GARCH)
+- Markov‑Switching GARCH (MS‑GARCH)
 
-Regime‑dependent volatility forecasts
+- Regime‑dependent volatility forecasts
 
-Smoothed and filtered regime probabilities
+- Smoothed and filtered regime probabilities
 
 2. GARCH vs Machine Learning (Hybrid Benchmarking)
 Chung (2024) demonstrates:
 
-Natural gas volatility has strong persistence
+- Natural gas volatility has strong persistence
 
-Spillovers from other markets are weak
+- Spillovers from other markets are weak
 
-Hybrid models outperform standalone GARCH or ML
+- Hybrid models outperform standalone GARCH or ML
 
 This project integrates:
 
-Pure econometric models
+- Pure econometric models
 
-Pure ML models
+- Pure ML models
 
-Hybrid GARCH‑residual‑ML models
+- Hybrid GARCH‑residual‑ML models
 
-Comparative evaluation (MSE, MAE, QLIKE)
+- Comparative evaluation (MSE, MAE, QLIKE)
 
 
 #### License
