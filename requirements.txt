@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+seaborn
+statsmodels
+arch
+hmmlearn
+scikit-learn
+xgboost
+tensorflow (optional for LSTM)
+pyyaml
+loguru
