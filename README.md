@@ -55,14 +55,13 @@ natural-gas-volatility/\
 │   ├── [settings.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/config/settings.py)\               
 │   └── [model_params.yaml](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/config/model_params.yaml)\        
 │
-├── data/\
-|              
+├── data/\            
 │   └── [loader.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/data/loader.py)\                
 │
 ├── models/\
 │   ├── garch/\
-│          ├── garch_models.py      # GARCH, EGARCH, FIGARCH\
-│   │   └── ms_garch.py          # MS‑GARCH implementation\
+        │   ├── garch_models.py      # GARCH, EGARCH, FIGARCH\
+        │   │   └── ms_garch.py          # MS‑GARCH implementation\
 │   │
 │   ├── hmm/\
 │   │   └── hmm_volatility.py    # HMM regime detection\
