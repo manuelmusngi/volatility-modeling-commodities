@@ -60,34 +60,34 @@ natural-gas-volatility/\
 │
 ├── models/\
 │   ├── garch/\
-        │   ├── garch_models.py      # GARCH, EGARCH, FIGARCH\
-        │   │   └── ms_garch.py          # MS‑GARCH implementation\
+│   ├── [garch_models.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/models/garch/garch_models.py)\       
+│   │   └── [ms_garch.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/models/garch/ms_garch.py)\           
 │   │
 │   ├── hmm/\
-│   │   └── hmm_volatility.py    # HMM regime detection\
+│   │   └──[hmm_volatility.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/models/hmm/hmm_volatility.py)\    
 │   │
 │   ├── ml/\
-│   │   ├── ml_models.py         # RF, XGB, LSTM (optional)\
-│   │   └── hybrid_models.py     # GARCH‑residual‑ML hybrids\
+│   │   ├── [ml_models.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/models/ml/ml_models.py)\          
+│   │   └── [hybrid_models.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/models/ml/hybrid_models.py)\      
 │   │
-│   └── model_factory.py         # Unified interface for all models\
+│   └──[model_factory.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/models/model_factory.py)\         
 │
 ├── forecasting/\
-│   ├── rolling_forecast.py      # Rolling window forecasting engine\
-│   └── regime_forecast.py       # Regime‑aware forecasting logic\
+│   ├── [rolling_forecast.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/forecasting/rolling_forecast.py)\       
+│   └── [regime_forecast.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/forecasting/regime_forecast.py)\        
 │
 ├── evaluation/\
-│   ├── metrics.py               # MSE, MAE, QLIKE, Diebold‑Mariano tests\
-│   └── comparison.py            # Benchmarking across all models\
+│   ├── [metrics.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/evaluation/metrics.py)\                
+│   └── [comparison.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/evaluation/comparison.py)\             
 │
 ├── utils/\
-│   ├── logger.py                # Structured logging\
-│   ├── plotter.py               # Volatility, regimes, forecast plots\
-│   └── helpers.py               # Misc utilities\
+│   ├── logger.py\                 
+│   ├── plotter.py\                
+│   └── helpers.py\                
 │
 ├── reports/\
-│   ├── figures/\                 # Plots (regimes, forecasts, comparisons)\
-│   └── results.csv              # Forecast error summary\
+│   ├── figures/\                 
+│   └── results.csv\              
 │
 └── requirements.txt
 
