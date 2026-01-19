@@ -52,8 +52,8 @@ natural-gas-volatility/\
 ├── [main.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/main.py)\
 │
 ├── config/\
-│   ├── [settings.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/config/settings.py)              # Global configs (paths, model params, rolling windows)\
-│   └── [model_params.yaml](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/config/model_params.yaml)        # GARCH, HMM, ML hyperparameters\
+│   ├── [settings.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/config/settings.py)\               
+│   └── [model_params.yaml](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/config/model_params.yaml)\        
 │
 ├── data/\
 │   ├── raw/\                      
