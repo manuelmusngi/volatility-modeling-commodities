@@ -1,0 +1,89 @@
+garch:
+  base_garch:
+    type: "GARCH"
+    p: 1
+    q: 1
+    dist: "normal"
+    mean: "constant"
+  egarch:
+    type: "EGARCH"
+    p: 1
+    q: 1
+    o: 1
+    dist: "t"
+    mean: "constant"
+  figarch:
+    type: "FIGARCH"
+    p: 1
+    q: 1
+    d: 0.4
+    dist: "normal"
+    mean: "constant"
+
+ms_garch:
+  ms_garch_2regime:
+    regimes: 2
+    base_model: "GARCH"
+    p: 1
+    q: 1
+    dist: "normal"
+    transition: "full"   # "full" or "diagonal"
+  ms_garch_3regime:
+    regimes: 3
+    base_model: "GARCH"
+    p: 1
+    q: 1
+    dist: "normal"
+    transition: "diagonal"
+
+hmm:
+  hmm_returns_2:
+    n_states: 2
+    covariance_type: "full"
+    emission: "gaussian"
+  hmm_vol_3:
+    n_states: 3
+    covariance_type: "diag"
+    emission: "gaussian"
+
+ml:
+  random_forest:
+    type: "RandomForestRegressor"
+    n_estimators: 300
+    max_depth: 6
+    min_samples_leaf: 5
+    random_state: 42
+  xgboost:
+    type: "XGBRegressor"
+    n_estimators: 500
+    learning_rate: 0.05
+    max_depth: 4
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+  lstm:
+    type: "LSTM"
+    hidden_units: 32
+    num_layers: 1
+    dropout: 0.1
+    batch_size: 64
+    epochs: 30
+    learning_rate: 0.001
+    sequence_length: 20
+
+hybrid:
+  garch_resid_rf:
+    base_model: "base_garch"
+    ml_model: "random_forest"
+    features:
+      - "lagged_resid_1"
+      - "lagged_resid_2"
+      - "lagged_resid_5"
+  garch_resid_xgb:
+    base_model: "base_garch"
+    ml_model: "xgboost"
+    features:
+      - "lagged_resid_1"
+      - "lagged_resid_2"
+      - "lagged_resid_5"
+      - "lagged_vol_1"
