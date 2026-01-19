@@ -81,15 +81,15 @@ natural-gas-volatility/\
 │   └── [comparison.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/evaluation/comparison.py)           
 │
 ├── utils/\
-│   ├── logger.py\                 
-│   ├── plotter.py\                
+│   ├── [logger.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/utils/logger.py)                
+│   ├── [plotter.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/utils/plotter.py)\                
 │   └── helpers.py\                
 │
 ├── reports/\
 │   ├── figures/\                 
 │   └── results.csv\              
 │
-└── requirements.txt
+└── [requirements.txt](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/requirements.txt)
 
 
 #### License
