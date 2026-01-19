@@ -61,7 +61,7 @@ natural-gas-volatility/\
 │
 ├── models/\
 │   ├── garch/\
-│   │   ├── garch_models.py      # GARCH, EGARCH, FIGARCH\
+│          ├── garch_models.py      # GARCH, EGARCH, FIGARCH\
 │   │   └── ms_garch.py          # MS‑GARCH implementation\
 │   │
 │   ├── hmm/\
