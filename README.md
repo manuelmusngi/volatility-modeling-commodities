@@ -56,9 +56,9 @@ natural-gas-volatility/\
 │   └── [model_params.yaml](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/config/model_params.yaml)        # GARCH, HMM, ML hyperparameters\
 │
 ├── data/\
-│   ├── raw/                     # Raw Henry Hub data\
-│   ├── processed/               # Cleaned returns, volatility proxies\
-│   └── loader.py                # Data ingestion + preprocessing\
+│   ├── raw/\                      
+│   ├── processed/\                
+│   └── [loader.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/data/loader.py)\                
 │
 ├── models/\
 │   ├── garch/\
