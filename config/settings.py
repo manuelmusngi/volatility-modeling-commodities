@@ -1,3 +1,5 @@
+# Global configs (paths, model params, rolling windows)
+
 import os
 import yaml
 from dataclasses import dataclass, field
