@@ -49,7 +49,7 @@ This project integrates:
 natural-gas-volatility/\
 │
 ├── [README.md](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/edit/main/README.md)\
-├── [main.py]\
+├── [main.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/main.py)\
 │
 ├── config/\
 │   ├── settings.py              # Global configs (paths, model params, rolling windows)\
