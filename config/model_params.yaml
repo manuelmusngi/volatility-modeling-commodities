@@ -1,3 +1,5 @@
+# GARCH, HMM, ML hyperparameters
+
 garch:
   base_garch:
     type: "GARCH"
