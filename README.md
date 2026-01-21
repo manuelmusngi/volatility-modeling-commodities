@@ -82,12 +82,12 @@ natural-gas-volatility/\
 │
 ├── utils/\
 │   ├── [logger.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/utils/logger.py)                
-│   ├── [plotter.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/utils/plotter.py)\                
-│   └── helpers.py\                
+│   ├── [plotter.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/utils/plotter.py)                
+│   └── helpers.py                
 │
 ├── reports/\
-│   ├── figures/\                 
-│   └── results.csv\              
+│   ├── figures/                 
+│   └── results.csv              
 │
 └── [requirements.txt](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/requirements.txt)
 
