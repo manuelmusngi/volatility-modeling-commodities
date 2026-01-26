@@ -22,7 +22,7 @@ The project is designed for quantitative researchers, energy analysts, energy tr
 - Produce rolling forecasts, regime probabilities, and forecast error comparisons.
 - Provide a clean, modular, production‑ready architecture.
 
-📚 Research Foundations
+📚 Research Reference Foundations
   
 1. Regime‑Switching Volatility (MS‑GARCH / HMM‑GARCH)
 Arouri, Lahiani & Nguyen (2012) show that natural gas and oil exhibit distinct volatility regimes, often linked to structural market events.
