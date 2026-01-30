@@ -2,7 +2,7 @@
 
 📘 Project Summary
 
-This project implements a research‑grade volatility modeling framework for Henry Hub natural gas using:
+This project implements a research‑grade volatility modeling framework for Henry Hub Natural Gas (NG) using:
 
 - 🔄 MS‑GARCH / HMM‑GARCH (Arouri, Lahiani & Nguyen, 2012)
 Captures regime‑switching volatility, distinguishing calm vs turbulent market states.
