@@ -1,6 +1,7 @@
 ⚡ Natural Gas Volatility Modeling: MS‑GARCH, HMM‑GARCH & Hybrid ML Benchmarks
 
 📘 Project Summary
+
 This project implements a research‑grade volatility modeling framework for Henry Hub natural gas using:
 
 - 🔄 MS‑GARCH / HMM‑GARCH (Arouri, Lahiani & Nguyen, 2012)
