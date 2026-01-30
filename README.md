@@ -56,7 +56,7 @@ natural-gas-volatility/\
 │   └── [model_params.yaml](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/config/model_params.yaml)        
 │
 ├── data/\            
-│   └── [loader.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/data/loader.py)\                
+│   └── [loader.py](https://github.com/manuelmusngi/volatility-modeling-energy-commodities/blob/main/data/loader.py)                
 │
 ├── models/\
 │   ├── garch/\
