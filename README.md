@@ -58,7 +58,7 @@ This project integrates:
 
 ---
 
-#### 🧩 Project Structure
+#### 🧩 Project Architecture
 
 natural-gas-volatility/\
 │
