@@ -13,19 +13,19 @@
 This project implements a **research‑grade volatility modeling framework** for the **NYMEX Henry Hub natural gas**, integrating:
 
 - 🔄 **Regime‑Switching Models**  
-  #### MS‑GARCH & HMM‑GARCH (Arouri, Lahiani & Nguyen, 2012)
+  ##### MS‑GARCH & HMM‑GARCH (Arouri, Lahiani & Nguyen, 2012)
 
 - 📈 **GARCH‑Family Models**  
-  #### GARCH, EGARCH, FIGARCH
+  ##### GARCH, EGARCH, FIGARCH
 
 - 🤖 **Machine Learning Benchmarks**  
-  #### Random Forest, XGBoost, LSTM (Chung, 2024)
+  ##### Random Forest, XGBoost, LSTM (Chung, 2024)
 
 - 🧠 **Hybrid Models**  
-  #### GARCH‑residual ML correction models
+  ##### GARCH‑residual ML correction models
 
 - 🔍 **Full Pipeline**  
-  #### Yahoo Finance data → preprocessing → modeling → forecasting → evaluation → reporting
+  ##### Yahoo Finance data → preprocessing → modeling → forecasting → evaluation → reporting
 
 The goal is to provide a **modular, extensible, and reproducible** platform for volatility forecasting and regime detection in natural gas markets.
 
