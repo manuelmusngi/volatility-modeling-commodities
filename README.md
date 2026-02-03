@@ -1,5 +1,5 @@
 #### ⚡ Natural Gas Volatility Modeling  
-#### MS‑GARCH • HMM‑GARCH • GARCH vs ML • Hybrid Models
+##### MS‑GARCH • HMM‑GARCH • GARCH vs ML • Hybrid Models
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
