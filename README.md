@@ -1,5 +1,5 @@
-# ⚡ Natural Gas Volatility Modeling  
-### MS‑GARCH • HMM‑GARCH • GARCH vs ML • Hybrid Models
+#### ⚡ Natural Gas Volatility Modeling  
+#### MS‑GARCH • HMM‑GARCH • GARCH vs ML • Hybrid Models
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Overview
+#### 📌 Overview
 
 This project implements a **research‑grade volatility modeling framework** for **Henry Hub natural gas**, integrating:
 
@@ -31,9 +31,9 @@ The goal is to provide a **modular, extensible, and reproducible** platform for 
 
 ---
 
-## 🧠 Research Foundations
+#### 🧠 Research Foundations
 
-### **1. Regime‑Switching Volatility**
+#### **1. Regime‑Switching Volatility**
 Arouri, Lahiani & Nguyen (2012) show that natural gas exhibits **distinct volatility regimes**, often linked to structural market events.  
 This project implements:
 
@@ -42,7 +42,7 @@ This project implements:
 - Regime‑dependent volatility forecasts
 - Smoothed & filtered regime probabilities
 
-### **2. GARCH vs ML Benchmarking**
+#### **2. GARCH vs ML Benchmarking**
 Chung (2024) finds:
 
 - Natural gas volatility has **strong persistence**
@@ -58,7 +58,8 @@ This project integrates:
 
 ---
 
-## 🧩 Project Structure
+#### 🧩 Project Structure
+
 natural-gas-volatility/\
 │
 ├── README.md\
