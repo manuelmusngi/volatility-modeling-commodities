@@ -10,7 +10,7 @@
 
 #### 📌 Overview
 
-This project implements a **research‑grade volatility modeling framework** for **Henry Hub natural gas**, integrating:
+This project implements a **research‑grade volatility modeling framework** for **NYMEX Henry Hub natural gas**, integrating:
 
 - 🔄 **Regime‑Switching Models**  
   MS‑GARCH & HMM‑GARCH (Arouri, Lahiani & Nguyen, 2012)
