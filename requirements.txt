@@ -7,6 +7,5 @@ arch
 hmmlearn
 scikit-learn
 xgboost
-tensorflow (optional for LSTM)
 pyyaml
 loguru
