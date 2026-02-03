@@ -94,24 +94,23 @@ natural-gas-volatility/\
 │   └── [model_factory.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/models/model_factory.py)\
 │
 ├── forecasting/\
-│   ├── rolling_forecast.py\
-│   └── regime_forecast.py\
+│   ├── [rolling_forecast.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/forecasting/rolling_forecast.py)\
+│   └── [regime_forecast.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/forecasting/regime_forecast.py)\
 │
 ├── evaluation/\
-│   ├── metrics.py\
-│   └── comparison.py\
+│   ├── [metrics.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/evaluation/metrics.py)\
+│   └── [comparison.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/evaluation/comparison.py)\
 │
 ├── utils/\
-│   ├── logger.py\
-│   ├── plotter.py\
-│   └── helpers.py\
+│   ├── [logger.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/utils/logger.py)\
+│   ├── [plotter.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/utils/plotter.py)\
+│   └── [helpers.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/utils/helpers.py)\
 │
 ├── reports/\
 │   ├── figures/\
 │   └── results.csv\
 │
-└── requirements.txt
-
+└── [requirements.txt](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/requirements.txt)
 
 
 #### License
