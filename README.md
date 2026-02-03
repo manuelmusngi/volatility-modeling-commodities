@@ -63,11 +63,11 @@ This project integrates:
 natural-gas-volatility/\
 │
 ├── README.md\
-├── main.py\
+├── [main.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/main.py)\
 │
 ├── config/\
-│   ├── settings.py\
-│   └── model_params.yaml\
+│   ├── [settings.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/config/settings.py)\
+│   └── [model_params.yaml](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/config/model_params.yaml)\
 │
 ├── data/\
 │   ├── raw/\
@@ -76,22 +76,22 @@ natural-gas-volatility/\
 │   ├── processed/\
 │   │   └── returns.csv\
 │   │
-│   ├── retrieval.py\
-│   └── loader.py\
+│   ├── [retrieval.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/data/retrieval.py)\
+│   └── [loader.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/data/loader.py)\
 │
 ├── models/\
 │   ├── garch/\
-│   │   ├── garch_models.py\
-│   │   └── ms_garch.py\
+│   │   ├── [garch_models.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/models/garch/garch_models.py)\
+│   │   └── [ms_garch.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/models/garch/ms_garch.py)\
 │   │
 │   ├── hmm/\
-│   │   └── hmm_volatility.py\
+│   │   └── [hmm_volatility.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/models/hmm/hmm_volatility.py)\
 │   │
 │   ├── ml/\
-│   │   ├── ml_models.py\
-│   │   └── hybrid_models.py\
+│   │   ├── [ml_models.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/models/ml/ml_models.py)\
+│   │   └── [hybrid_models.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/models/ml/hybrid_models.py)\
 │   │
-│   └── model_factory.py\
+│   └── [model_factory.py](https://github.com/manuelmusngi/volatility-modeling-commodities/blob/main/models/model_factory.py)\
 │
 ├── forecasting/\
 │   ├── rolling_forecast.py\
