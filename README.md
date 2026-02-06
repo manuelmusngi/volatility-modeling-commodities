@@ -35,6 +35,7 @@ The goal is to provide a **modular, extensible, and reproducible** platform for 
 
 #### **1. Regime‑Switching Volatility**
 Arouri, Lahiani & Nguyen (2012) show that natural gas exhibits **distinct volatility regimes**, often linked to structural market events.  
+
 This project implements:
 
 - Hidden Markov Models (HMM)
